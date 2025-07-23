@@ -1,0 +1,76 @@
+/* src/components/Navbar.css */
+.navbar {
+    width: 100%;
+    background: #141624;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #4B6BFB;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn {
+    padding: 0.5rem 1.2rem;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn.signin {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #171d73;
+    border-radius: 4px;
+  }
+  
+  .btn.signin:hover {
+    background-color: #171d73;
+    color: white;
+  }
+  
+  .btn.signup {
+    background-color: #4B6BFB;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  .btn.signup:hover {
+    background-color: #171d73;
+  }
+  

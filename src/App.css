@@ -1,0 +1,13 @@
+.home{
+  margin: 0 6.4cm;
+  width: 80%;
+}
+
+.home h1{
+  color: white;
+    margin: 0 11.6cm;
+}
+body{
+  background-color: #242535;
+  font-family: 'poppins';
+}
